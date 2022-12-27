@@ -1,0 +1,96 @@
+.main {
+    padding: 60px 30px;
+    margin-top: 10px;
+}
+
+.main h2 {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: xx-large;
+    color: #ffffff;
+}
+
+.container {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: stretch;
+    height: 500px;
+}
+
+.topics {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.topics li {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: x-large;
+    color: #fff;
+    text-align: left;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+}
+.topics li.selected {
+    color: #ff242a;
+}
+
+.videos {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.videoCard:first-child {
+    grid-column: 1 / span 2;
+}
+
+.videoCard iframe {
+    width: 100%;
+    aspect-ratio: 2;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.videoCard .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.videoCard p {
+    font-family: "Open Sans";
+    font-weight: 500;
+    color: #ffffff;
+    font-size: x-large;
+}
+
+.videoCard svg {
+    stroke: #fff;
+    stroke-width: 7px;
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.container > ::-webkit-scrollbar {
+    width: 7px;
+}
+
+.container > ::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+.container > ::-webkit-scrollbar-thumb {
+    border-radius: 999px;
+    background: #ff242a;
+}

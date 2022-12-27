@@ -1,0 +1,7 @@
+.header {
+    background-image: url("/backgrounds/course_hero.webp");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center right;
+    padding-bottom: 100px;
+}

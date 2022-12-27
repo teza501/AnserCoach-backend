@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@600&family=Signika:wght@700&display=swap");
+
+.main {
+    position: relative;
+    margin-top: 50px;
+}
+.main::before {
+    content: "";
+    width: 100%;
+    height: 95%;
+    background-color: #0b1534;
+    position: absolute;
+    top: 2.5%;
+    left: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    padding: 0 15px;
+}
+
+.card {
+    padding: 50px 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+.card:first-child {
+    background: rgba(255, 255, 255, 0.13);
+    backdrop-filter: blur(13px);
+    border-radius: 10px;
+}
+.card:nth-child(2)::after,
+.card:nth-child(3)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 25%;
+    width: 1px;
+    height: 50%;
+    background-color: #d9d9d9;
+}
+
+.card h2 {
+    font-family: Signika;
+    font-size: xxx-large;
+    color: #ffffff;
+}
+
+.card p {
+    margin-top: 10px;
+    font-family: Inter;
+    font-size: medium;
+    color: #d9d9d9;
+}
+
+.card h3 {
+    font-family: Montserrat;
+    font-size: xxx-large;
+    color: #ff242a;
+}
+
+.card h4 {
+    font-family: Montserrat;
+    font-size: xx-large;
+    color: #ffffff;
+}

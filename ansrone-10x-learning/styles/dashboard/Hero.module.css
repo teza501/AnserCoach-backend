@@ -1,0 +1,139 @@
+.main {
+    margin-top: 40px;
+    padding: 30px;
+}
+
+.breadcrumb ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.breadcrumb ul li {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: x-large;
+    color: #fff;
+}
+.breadcrumb ul li:last-child {
+    color: #ff242a;
+}
+.breadcrumb ul li:not(:last-child)::after {
+    content: "/";
+    margin: 0 5px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.left .card {
+    text-align: center;
+}
+
+.left .card img {
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+    padding: 15px;
+    background: #252a3f;
+    border: 0.5px solid #3e4a59;
+    border-radius: 30px;
+}
+
+.left .card p {
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: x-large;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+.right {
+    background: #1c2136;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.right .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.right .header p {
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: large;
+    color: #ffffff;
+}
+
+.right select {
+    background: #ff242a;
+    border-radius: 41px;
+    padding: 10px 15px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: small;
+    color: #ffffff;
+}
+
+.right select option {
+    color: #ffffff;
+    background-color: #13192e;
+}
+
+.right .info {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.right .infoCard {
+    text-align: center;
+}
+
+.right .infoCard > p {
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: medium;
+    color: #898989;
+    margin-bottom: 7px;
+}
+
+.right .infoCard .days {
+    border-radius: 6px;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+.right .days h3 {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: x-large;
+    color: #ffffff;
+    margin-bottom: 7px;
+}
+
+.right .days p {
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: medium;
+    color: #ffffff;
+}

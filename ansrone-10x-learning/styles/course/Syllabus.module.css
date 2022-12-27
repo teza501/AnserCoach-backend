@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@400;700&display=swap");
+
+.main {
+    padding: 30px;
+    padding-top: 180px;
+    background-color: #252a3f;
+}
+
+.container {
+    background-color: #000f36;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-radius: 20px;
+}
+
+.left {
+    height: 100%;
+    border-radius: 20px;
+    background-color: #ff242a;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left > div {
+    width: 100%;
+}
+
+.left h2 {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: xxx-large;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.left p {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: xx-large;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 65px;
+}
+
+.left select {
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 15px 20px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: large;
+    color: #ffffff;
+    width: 100%;
+    margin-bottom: 65px;
+}
+
+.left img {
+    width: 100%;
+    max-width: 400px;
+    object-fit: contain;
+    margin: auto;
+}
+
+.right {
+    height: 100%;
+    padding: 30px;
+}
+
+.right .buttonGroup {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.right .buttonGroup button {
+    border: 1px dashed #f4f4f4;
+    padding: 15px 20px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: large;
+    color: #f4f4f4;
+}
+.right .buttonGroup button.selected {
+    border-color: #ff242a;
+    color: #ff242a;
+}
+
+.right ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.right ul li {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: xx-large;
+    color: #ffffff;
+    list-style: disc;
+}

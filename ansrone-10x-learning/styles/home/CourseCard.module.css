@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Open+Sans:wght@500&display=swap");
+
+.main {
+    height: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.container {
+    position: relative;
+    z-index: 2;
+}
+
+.container p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: medium;
+    color: #3e4a59;
+}
+.container p span {
+    font-weight: 500;
+    font-size: large;
+}
+
+.container h4 {
+    font-family: "Open Sans";
+    font-size: xx-large;
+    color: #3e4a59;
+    margin: 10px 0;
+}
+
+.container p.button {
+    width: fit-content;
+    margin-top: 20px;
+    border-radius: 7px;
+    padding: 10px 20px;
+    font-family: "Open Sans";
+    font-size: large;
+    color: #ffffff;
+}
+
+.main img {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+    z-index: 1;
+}
+.main img.icon1 {
+    top: 0;
+    left: 0;
+    transform: translate(-35%, -35%);
+}
+.main img.icon2 {
+    right: 20px;
+    bottom: 20px;
+}

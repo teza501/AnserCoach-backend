@@ -1,0 +1,160 @@
+.main {
+    padding: 30px;
+    padding-top: 150px;
+    background-color: #252a3f;
+}
+
+.main h2 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: xxx-large;
+    text-align: center;
+    color: #ffffff;
+}
+
+.main h2 span {
+    color: #ff242a;
+}
+
+.buttonGroup {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.buttonGroup button {
+    border: 1px dashed #f4f4f4;
+    border-radius: 6px;
+    padding: 15px 20px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: large;
+    color: #f4f4f4;
+}
+.buttonGroup button.selected {
+    border-color: #ff242a;
+    color: #ff242a;
+}
+
+.main h3 {
+    margin-top: 30px;
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: x-large;
+    text-align: center;
+    color: #ff242a;
+    text-shadow: 5px 5px 25px rgba(255, 255, 255, 0.25);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    white-space: nowrap;
+    overflow-x: auto;
+    width: fit-content;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.card {
+    position: relative;
+    background: #13192e;
+    border: 1px solid rgba(244, 244, 244, 0.4);
+    border-radius: 10px;
+    overflow: hidden;
+    min-width: 300px;
+}
+
+.card .header {
+    background-color: #000f36;
+    padding: 25px;
+}
+
+.card .header h4 {
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 7px;
+}
+
+.card .header p {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: x-large;
+    text-align: center;
+    color: #ff242a;
+}
+
+.card .info {
+    padding: 25px;
+}
+
+.card .info p {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: large;
+    color: rgba(244, 244, 244, 0.57);
+    margin-bottom: 5px;
+}
+
+.card .info h5 {
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: x-large;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.card .priceInfo {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.card .priceInfo p {
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: 64px;
+    color: #ff242a;
+}
+
+.card .priceInfo p span {
+    text-decoration-line: line-through;
+    font-size: medium;
+    color: #f4f4f4;
+}
+
+.card button {
+    background: #ff242a;
+    border-radius: 7px;
+    padding: 20px 25px;
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: x-large;
+    color: #ffffff;
+    width: 100%;
+}
+
+.offer {
+    position: absolute;
+    z-index: 2;
+    top: 14px;
+    left: -37px;
+    padding: 5px 30px;
+    transform: rotate(-45deg);
+    background-color: #0ba711;
+}
+
+.offer p {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: medium;
+    color: #13192e;
+}

@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&display=swap");
+
+.top {
+    background-color: #252a3f;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    gap: 25px;
+}
+
+.subscribe h3 {
+    font-family: "Open Sans";
+    font-size: x-large;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.formGroup {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 999px;
+    padding: 5px;
+    gap: 10px;
+}
+
+.formGroup input {
+    padding: 15px 20px;
+    font-family: "Open Sans";
+    font-size: x-large;
+    color: #3e4a59;
+}
+
+.formGroup button {
+    background-color: #ff242a;
+    border-radius: 999px;
+    padding: 5px 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formGroup button img {
+    max-width: 40px;
+    object-fit: contain;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.tile {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.tile img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.tile p {
+    font-family: "Open Sans";
+    font-size: medium;
+    color: #ffffff;
+    overflow-wrap: anywhere;
+}
+
+.bottom {
+    padding: 30px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: #02040a;
+}
+
+.bottom p {
+    font-family: "Open Sans";
+    font-size: large;
+    color: #ffffff;
+}
+
+.bottom .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.bottom .social p {
+    font-size: medium;
+}
+
+.bottom .social img {
+    width: 24px;
+    object-fit: contain;
+}

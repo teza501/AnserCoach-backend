@@ -1,0 +1,68 @@
+.main {
+    margin-top: 100px;
+    padding: 0 30px;
+    /* position: sticky; */
+    top: 0;
+    z-index: 10;
+}
+
+.container {
+    padding: 30px;
+    background: #1b2136;
+    backdrop-filter: blur(12px);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.left h2 {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: xxx-large;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.left p {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: x-large;
+    color: #ffffff;
+}
+
+.buttonGroup {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px 30px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.buttonGroup button {
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: x-large;
+    background-color: #ff242a;
+    color: #fff;
+}
+.buttonGroup button.secondary {
+    background-color: transparent;
+    border: 1.5px solid #ff242a;
+    color: #ff242a;
+}
+
+.right p {
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: xxx-large;
+    color: #ff242a;
+}
+.right p span {
+    font-size: medium;
+    text-decoration-line: line-through;
+    color: #f4f4f4;
+}

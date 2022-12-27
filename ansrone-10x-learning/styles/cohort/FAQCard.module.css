@@ -1,0 +1,43 @@
+.main {
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding: 18px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.header h3 {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: x-large;
+    color: #ff242a;
+}
+
+.header svg {
+    width: 18px;
+    height: 18px;
+    fill: #ff242a;
+    cursor: pointer;
+}
+
+.container p {
+    font-weight: 400;
+    font-size: x-large;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: x-large;
+    color: #ffffff;
+    max-height: 0;
+    padding-top: 0px;
+    overflow-y: hidden;
+    transition: max-height 300ms linear, padding-top 300ms linear;
+}
+.container p.show {
+    padding-top: 40px;
+    max-height: 500px;
+}

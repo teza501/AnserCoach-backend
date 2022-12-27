@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Open+Sans&family=Space+Grotesk:wght@700&display=swap");
+
+.main {
+    padding: 40px 0;
+    overflow-x: hidden;
+}
+
+.main .container {
+    display: grid;
+    grid-template-columns: 2fr 4fr 1fr;
+    align-items: center;
+    gap: 25px;
+}
+
+.container img.astronaut,
+.container img.rocket {
+    width: 100%;
+}
+
+.content h1 {
+    font-family: "Space Grotesk";
+    font-size: 78px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.content h1 span {
+    color: #ff242a;
+}
+
+.content p {
+    margin-top: 25px;
+    font-family: "Open Sans";
+    font-size: xx-large;
+    color: #ffffff;
+}
+
+.content .buttonGroup {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.buttonGroup button {
+    border-radius: 999px;
+    font-family: "Inter";
+    color: #ffffff;
+}
+
+.buttonGroup button.primary {
+    background-color: #ff242a;
+    padding: 18px 25px;
+    font-size: larger;
+}
+
+.buttonGroup button.secondary {
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(35px);
+    border-radius: 999px;
+    padding: 10px 20px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: medium;
+    color: #ffffff;
+}
+
+.buttonGroup button.secondary img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 999px;
+    box-shadow: 0px 0px 12.126px rgba(0, 0, 0, 0.25);
+}
+
+.container img.rocket {
+    transform: rotate(-32deg) translateX(25%);
+    align-self: flex-end;
+}

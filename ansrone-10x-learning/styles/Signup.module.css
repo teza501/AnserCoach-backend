@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@400;500&display=swap");
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(135, 135, 135, 0.63);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    width: 1000px;
+    max-width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    background: #13192e;
+    border-radius: 15px;
+    padding: 25px 45px;
+    text-align: right;
+}
+
+.main > svg {
+    fill: #6b757e99;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+/* Containe 1 */
+
+.container1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container1 h2 {
+    font-family: Montserrat;
+    font-size: xx-large;
+    color: #ff242a;
+}
+
+.container1 img {
+    max-height: 250px;
+    object-fit: cover;
+    margin: 20px auto;
+}
+
+.container1 .options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.container1 .option {
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    transition: border-color 300ms ease-in-out;
+}
+.container1 .option:hover {
+    border-color: #ff242a;
+}
+
+.container1 .option h4,
+.container1 .option p,
+.container1 .option button {
+    font-family: "Open Sans";
+    font-size: x-large;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+}
+
+.container1 .option p {
+    font-weight: 400;
+    font-size: large;
+    margin: 20px 0;
+}
+
+.container1 .option button {
+    background: rgba(135, 135, 135, 0.57);
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: larger;
+    transition: background-color 300ms ease-in-out;
+}
+.container1 .option:hover button {
+    background-color: #ff242a;
+}
+
+/* Containe 2 */
+.container2 {
+    width: 100%;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.container2 .header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.container2 .header img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.container2 .header h4 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: xx-large;
+    color: #ffffff;
+}
+.container2 .header h4 span {
+    color: #ff242a;
+}
+
+.container2 p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: larger;
+    color: #898989;
+    text-align: left;
+    margin: 30px 0;
+}
+
+.container2 form input,
+.container2 form select {
+    padding: 20px;
+    border-radius: 7px;
+    width: 100%;
+    border: 1px solid #87878791;
+    margin-bottom: 30px;
+    font-family: "Open Sans";
+    font-size: x-large;
+    color: #fff;
+}
+
+.container2 form select option {
+    background-color: #13192e;
+}
+
+.container2 form button {
+    padding: 15px 25px;
+    background-color: #87878791;
+    border-radius: 7px;
+    font-family: "Open Sans";
+    font-size: x-large;
+    color: #ffffff;
+    transition: background-color 300ms ease-in-out;
+}
+.container2 form button:hover {
+    background-color: #ff242a;
+}
+
+/* Containe 3 */
+.container3 {
+    width: 100%;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.container3 h4 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: xx-large;
+    color: #ffffff;
+    text-align: center;
+}
+.container3 h4 span {
+    color: #ff242a;
+}
+
+.container3 p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: larger;
+    color: #fff;
+    text-align: left;
+    margin: 30px 0;
+    text-align: center;
+}
+.container3 p span {
+    color: #ff242a;
+    cursor: pointer;
+}
+
+.container3 form .inputGroup {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.container3 form input {
+    padding: 20px;
+    width: 100%;
+    border-bottom: 7px solid #d9d9d9;
+    font-family: "Open Sans";
+    font-size: x-large;
+    color: #fff;
+    text-align: center;
+}
+
+.container3 form button {
+    padding: 15px 25px;
+    background-color: #87878791;
+    border-radius: 7px;
+    font-family: "Open Sans";
+    font-size: x-large;
+    color: #ffffff;
+    transition: background-color 300ms ease-in-out;
+}
+.container3 form button:hover {
+    background-color: #ff242a;
+}
+
+/* Containe 4 */
+.container4 {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container4 h4 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: xx-large;
+    color: #ffffff;
+    text-align: center;
+    margin: 100px auto;
+}
+.container4 h4 span {
+    color: #ff242a;
+}

@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+.main {
+    padding: 30px 25px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.container img.logo {
+    height: 80px;
+    width: auto;
+}
+
+.container .links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 50px;
+}
+
+.links ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.links ul li {
+    font-family: Inter;
+    font-size: larger;
+    color: #ffffff;
+    text-align: center;
+}
+.links ul li.selected {
+    color: #ff242a;
+}
+
+.links .shopIcon {
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.19);
+    border: 1px solid #ffffff;
+    backdrop-filter: blur(2px);
+}
+
+.links .shopIcon img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.links .login {
+    background-color: #ff242a;
+    border-radius: 7px;
+    padding: 15px 25px;
+    font-family: Inter;
+    font-size: larger;
+    color: #ffffff;
+}

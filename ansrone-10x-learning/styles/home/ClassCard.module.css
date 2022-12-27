@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Open+Sans&display=swap");
+
+.main {
+    border-radius: 10px;
+    padding: 30px 20px;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #252a3f;
+    --border-width: 9px;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h3 {
+    font-family: Inter;
+    font-size: xx-large;
+    text-align: center;
+    color: #ffffff;
+}
+
+.container .imageContainer {
+    position: relative;
+    width: 90%;
+    aspect-ratio: 1;
+    margin: calc(18px + var(--border-width)) auto;
+    border-radius: 999px;
+    background-color: #13192e;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 9px solid #fc7152;
+}
+/* .container .imageContainer::before {
+    content: "";
+    position: absolute;
+    top: calc(-1 * var(--border-width));
+    bottom: calc(-1 * var(--border-width));
+    left: calc(-1 * var(--border-width));
+    right: calc(-1 * var(--border-width));
+    background: linear-gradient(180deg, #ff242a 0%, #fb9565 100%, #fb9565 100%);
+    border-radius: 999px;
+    z-index: -1;
+} */
+
+.shapes {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    animation: rotation-cw 7s linear infinite;
+}
+
+.shapes img {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+    object-fit: contain;
+    border-radius: 999px;
+    background: #13192e;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    top: 50%;
+}
+.shapes img:first-child {
+    left: calc(-0.5 * var(--border-width));
+    transform: translate(-50%, -50%);
+}
+.shapes img:last-child {
+    right: calc(-0.5 * var(--border-width));
+    transform: translate(50%, -50%);
+}
+
+.container > p {
+    font-family: Inter;
+    font-size: medium;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+.container a p {
+    width: fit-content;
+    margin: auto;
+    margin-top: 18px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    background-color: #ff242a;
+    font-family: "Open Sans";
+    font-size: medium;
+    color: #ffffff;
+}
+
+@keyframes rotation-cw {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

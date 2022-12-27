@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@400;500;700&display=swap");
+
+.main {
+    background-color: #252a3f;
+    padding: 100px 30px;
+    text-align: center;
+}
+
+.main h2 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: xxx-large;
+    text-align: center;
+    color: #ffffff;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+.step {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.info {
+    padding: 100px 0;
+}
+
+.info h3 {
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: xxx-large;
+    color: #a1a3ac91;
+    margin-bottom: 40px;
+    transition: color 300ms ease-in-out;
+}
+.step.visible h3 {
+    color: #ff242a;
+}
+
+.info p {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: xx-large;
+    color: #a1a3ac91;
+    transition: color 300ms ease-in-out;
+}
+.step.visible p {
+    color: #fff;
+}
+
+.info.right h3,
+.info.right p {
+    text-align: left;
+}
+.info.left h3,
+.info.left p {
+    text-align: right;
+}
+
+.count {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.count::before {
+    content: "";
+    width: 10px;
+    height: 100%;
+    background-color: #a1a3ac91;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    transition: background-color 300ms ease-in-out;
+}
+.step.visible .count::before {
+    background-color: #ff242a;
+}
+.step:first-child .count::before {
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.count p {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 64px;
+    color: #ffffff;
+    width: 100px;
+    height: 100px;
+    border-radius: 999px;
+    background-color: #a1a3ac;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    transition: background-color 300ms ease-in-out;
+}
+.step.visible .count p {
+    background-color: #ff242a;
+}
+
+.book {
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: x-large;
+    color: #ffffff;
+    background: #ff242a;
+    border-radius: 7px;
+    padding: 30px 40px;
+}

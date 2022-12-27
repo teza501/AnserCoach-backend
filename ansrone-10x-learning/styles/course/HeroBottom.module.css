@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Signika:wght@500&display=swap");
+
+.main {
+    padding: 70px 50px;
+    background-color: #0b1434;
+    border-radius: 20px;
+}
+
+.container h2 {
+    font-family: Signika;
+    font-weight: 500;
+    font-size: xxx-large;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.container h3 {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: xx-large;
+    text-align: center;
+    color: #ffffff;
+}
+
+.cards {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+
+.card {
+    background: #252a3f;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+}
+
+.card h4 {
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: x-large;
+    text-align: center;
+    color: #ffffff;
+}
+
+.card img {
+    max-width: 100px;
+    width: 100%;
+    object-fit: contain;
+    margin: 30px auto;
+}
+
+.card p {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: large;
+    text-align: center;
+    color: #ffffff;
+}

@@ -1,0 +1,82 @@
+.main {
+    margin-top: 100px;
+    padding: 30px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.main img.animation {
+    position: absolute;
+    top: -100px;
+    right: -120px;
+    z-index: -1;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.header h2 {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: xxx-large;
+    color: #ffffff;
+    width: 100%;
+}
+
+.header svg {
+    width: 100%;
+    fill: #ff242a;
+}
+
+.cards {
+    margin-top: 60px;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+}
+
+.card h3 {
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: xx-large;
+    margin-bottom: 30px;
+}
+
+.card ul {
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 30px;
+}
+
+.card ul li {
+    list-style: disc;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: larger;
+    color: #000000;
+}
+
+.card .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+    width: 100%;
+    object-fit: contain;
+}

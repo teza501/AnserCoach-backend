@@ -1,0 +1,76 @@
+.main {
+    margin-top: 80px;
+    padding: 30px;
+}
+
+.container h2 {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: xxx-large;
+    color: #ffffff;
+    margin-bottom: 35px;
+}
+
+.container select {
+    padding: 16px 24px;
+    border: 0.5px solid #ffffff;
+    border-radius: 4px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: large;
+    color: #ffffff;
+}
+.container option {
+    background-color: #252a3f;
+}
+
+.cards {
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.card h3 {
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: xx-large;
+    margin-bottom: 30px;
+}
+
+.card ul {
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.card ul li {
+    list-style: disc;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: larger;
+    color: #000000;
+}
+
+.card button {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: large;
+}
+
+.card .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+    width: 100%;
+    object-fit: contain;
+}

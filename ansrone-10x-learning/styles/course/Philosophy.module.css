@@ -1,0 +1,77 @@
+.main {
+    padding: 30px;
+    padding-top: 180px;
+    background-color: #252a3f;
+    text-align: center;
+    background-image: url("/backgrounds/course_philosophy_2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main h2 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: xxx-large;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.main h3 {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: xx-large;
+    text-align: center;
+    color: #f4f4f4;
+    margin-bottom: 100px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 600px;
+    background-image: url("/backgrounds/course_philosophy_1.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.cards {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.card {
+    background: #001035;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 30px;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.card p {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: x-large;
+    text-align: center;
+    color: #ffffff;
+}
+
+.book {
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: x-large;
+    color: #ffffff;
+    background: #ff242a;
+    border-radius: 7px;
+    padding: 30px 40px;
+    margin-top: 100px;
+}
